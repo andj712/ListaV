@@ -51,7 +51,7 @@ spec:
             - mountPath: /var/log/nginx
               name: nginx-data        
           ports:
-          - containerPort: 80          
+          - containerPort: 8081          
         - name: copy-data 
           image: ubuntu  
           command: ["/bin/sh", "-c"]
